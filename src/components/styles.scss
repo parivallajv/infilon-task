@@ -1,0 +1,57 @@
+.users-list-container {
+  padding: 20px;
+
+  .title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .user-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  .button-wrapper {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+.task-runner-container {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  
+
+  .input-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .task-input {
+    width: 200px;
+  }
+
+  .messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .message-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: #f0f2f5;
+    font-weight: 500;
+  }
+}

@@ -1,7 +1,13 @@
-import "./App.css";
+import { Provider } from "react-redux";
+import store from "./store";
+import TabViews from "./modules/TabViews";
 
 function App() {
-  return <div className="App">Hi</div>;
+  return (
+    <Provider store={store}>
+      <TabViews />
+    </Provider>
+  );
 }
 
 export default App;
