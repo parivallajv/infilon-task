@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Tab Views App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React app with a tab layout where each tab shows a different feature. It uses Redux Thunk for state management, Ant Design for UI components, and SCSS for styling. The app includes reusable components, a recursive function example, and user data fetching from an API.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+- **ReactJS**
+- **Redux with Thunk**
+- **Ant Design (AntD)**
+- **SCSS**
+- **JavaScript (ESLint Configured)**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔹 Tab 1 – Google iFrame
 
-### `npm test`
+_Displays an iframe intended to show Google (Note: Google blocks iframe embedding by default due to security policies)._
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔹 Tab 2 – API Integration + Navigation
 
-### `npm run build`
+_Fetches user data from the public API `https://reqres.in/api/users?page=1` and displays users in AntD cards._  
+_Includes a button that navigates to Tab 3._
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔹 Tab 3 – Recursive Task Runner
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+_Accepts a number input from the user and recursively prints `Hello Task` that many times followed by `STOP`._  
+_Uses a recursive JavaScript function and responsive UI via AntD._
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the repo and install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/parivallajv/infilon-task.git
+cd infilon-task
+yarn install
+```
